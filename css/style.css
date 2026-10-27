@@ -155,7 +155,7 @@ nav a.active {
   color: #4f46e5;
   margin-bottom: 4px;
 }
-/* DE CE VOLTA */
+
 .why {
   display: flex;
   gap: 50px;
@@ -216,7 +216,7 @@ nav a.active {
   color: #64748b;
 }
 
-/* PRODUSE */
+
 .products-section {
   padding: 70px 40px;
   text-align: center;
