@@ -1,0 +1,157 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #1a1a2e;
+  line-height: 1.5;
+  background: #fff;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.topbar {
+  background: #0f172a;
+  color: #94a3b8;
+  font-size: 13px;
+  padding: 8px 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+header {
+  background: #fff;
+  padding: 15px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  box-shadow: 0 1px 0 #eee;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+nav a {
+  margin: 0 14px;
+  color: #64748b;
+  font-size: 15px;
+}
+
+nav a.active {
+  color: #4f46e5;
+  font-weight: 600;
+  border-bottom: 2px solid #4f46e5;
+  padding-bottom: 2px;
+}
+
+.btn {
+  display: inline-block;
+  background: #4f46e5;
+  color: #fff;
+  padding: 10px 22px;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 14px;
+  border: none;
+}
+
+.btn.white {
+  background: transparent;
+  border: 2px solid #fff;
+  color: #fff;
+  margin-left: 10px;
+}
+
+.hero {
+  position: relative;
+  color: #fff;
+  text-align: center;
+  padding: 100px 20px 130px;
+  overflow: hidden;
+  background: #1e1b4b;
+}
+
+.hero-bg-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 1;
+  filter: brightness(0.4);
+}
+
+.hero-content {
+  position: relative;
+  z-index: 2;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.badge {
+  display: inline-block;
+  background: #4f46e5;
+  padding: 6px 16px;
+  border-radius: 20px;
+  font-size: 13px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.hero h1 {
+  font-size: 42px;
+  line-height: 1.2;
+  margin-bottom: 16px;
+}
+
+.hero h1 span {
+  color: #a5b4fc;
+}
+
+.hero p {
+  font-size: 16px;
+  color: #c7d2fe;
+  margin-bottom: 30px;
+  max-width: 520px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.stats {
+  background: #fff;
+  width: 800px;
+  max-width: 90%;
+  margin: -60px auto 0;
+  padding: 28px 0;
+  display: flex;
+  text-align: center;
+  border-radius: 12px;
+  position: relative;
+  z-index: 10;
+  box-shadow: 0 8px 30px rgba(0,0,0,0.1);
+}
+
+.stats div {
+  width: 25%;
+  color: #64748b;
+  font-size: 13px;
+}
+
+.stats b {
+  display: block;
+  font-size: 28px;
+  color: #4f46e5;
+  margin-bottom: 4px;
+}
